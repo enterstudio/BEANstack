@@ -1,0 +1,83 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
+html {
+    font-family: 'Poiret One', cursive;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;;
+}
+
+.cardLink, .ftr {
+  padding: 15px;
+}
+
+#basic-addon1 {
+  width:150px;
+}
+
+/* Starter styles
+-------------------------------------------------- */
+
+body {
+  padding-top: 5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 25%;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 800px) {
+    .footer {
+        height: 35%;
+        line-height: 20px;
+        bottom: 0%;
+    }
+  }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/* Wrap */
+/* http://stackoverflow.com/questions/19756997/how-to-create-a-sticky-footer-that-plays-well-with-bootstrap-3 */
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 100px;
+}

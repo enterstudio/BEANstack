@@ -1,0 +1,27 @@
+<div class="card ng-cloak">
+  <img class="card-img-top" src="../../img/background.gif" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Fizzbuzz</h4>
+    <p class="card-text">Here's a fizzbuzz example. Click the buttons below to execute each fizzbuzz function!</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">max_value</span>
+        <input type="text" class="form-control" placeholder="5" id="txtInput" aria-describedby="basic-addon1">
+      </div>
+    </li>
+    <li class="list-group-item"><button id="fizzBtn" class="ui-button ui-widget ui-corner-all" ng-click="fizz()">Click to Fizz</button></li>
+    <li class="list-group-item"><button id="buzzBtn" class="ui-button ui-widget ui-corner-all" ng-click="buzz()">Click to Buzz</button></li>
+    <li class="list-group-item"><button id="fizzbuzzBtn" class="ui-button ui-widget ui-corner-all" ng-click="fizzbuzz()">Click to Fizzbuzz</button></li>
+  </ul>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Message: {{Message}}</li>
+    <li class="list-group-item">Status: {{Status}}</li>
+    <li class="list-group-item">Numbers: {{Numbers}}</li>
+  </ul>
+  <div class="card-block">
+    <a class="cardLink" href="/api" target="_blank">Fizzbuzz!</a>
+    <a class="cardLink" href="https://github.com/Thoughtscript/demo-fizzbuzz" target="_blank">Git</a>
+  </div>
+</div>
