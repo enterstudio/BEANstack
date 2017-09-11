@@ -1,5 +1,7 @@
 # BEANstack
 
+[![Build Status](https://travis-ci.org/Thoughtscript/BEANstack.svg)](https://travis-ci.org/Thoughtscript/BEANstack)
+
 Bootstrap Express Angular 1.5 Node Example.
 
 A fizzbuzz is some kind of mythical hero that subsists on API calls(?)
