@@ -2,7 +2,9 @@
 
 [![Build Status](https://travis-ci.org/Thoughtscript/BEANstack.svg)](https://travis-ci.org/Thoughtscript/BEANstack)
 
-This was a test from maybe a year and a half ago.
+This was a test from maybe a year and a half ago. 
+
+It's on the free tier of Heroku so (slow your roll) - spin up time takes time oh yeah.
 
 Bootstrap Express Angular 1.5 Node Example.
 
